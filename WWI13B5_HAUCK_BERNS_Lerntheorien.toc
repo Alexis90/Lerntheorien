@@ -18,15 +18,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Kognitivismus}{3}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Konstruktivismus}{4}{chapter.3}
+\contentsline {section}{\numberline {2.1}Definition}{3}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Vier Ausrichtungen des Konstruktivismus}{4}{section.3.1}
+\contentsline {section}{\numberline {2.2}Lernregeln des Kognitivismus sowie die praktische Umsetzung}{3}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Anwendung im E-Learning}{6}{section.3.2}
+\contentsline {chapter}{\numberline {3}Konstruktivismus}{5}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Konnektivismus}{7}{chapter.4}
+\contentsline {section}{\numberline {3.1}Vier Ausrichtungen des Konstruktivismus}{5}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Fazit}{8}{chapter.5}
+\contentsline {section}{\numberline {3.2}Anwendung im E-Learning}{7}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Konnektivismus}{8}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Fazit}{9}{chapter.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Beigaben}{IV}{appendix*.4}
 \defcounter {refsection}{0}\relax 

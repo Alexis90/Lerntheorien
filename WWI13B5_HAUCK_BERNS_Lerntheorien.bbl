@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.5 $
+% $ biblatex version 2.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -60,6 +60,60 @@
   \field{title}{Constructivism, socioculturalism, and Popper's world 3}
   \field{journaltitle}{Educational researcher}
   \field{year}{1994}
+\endentry
+
+\entry{Drummer.2011}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Drummer}{D.}%
+     {Jens}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {H{\"u}lsbusch}%
+  }
+  \strng{namehash}{DJ1}
+  \strng{fullhash}{DJ1}
+  \field{labelalpha}{Dru11}
+  \field{sortinit}{D}
+  \field{isbn}{978-3-940317-84-1}
+  \field{series}{E-Learning}
+  \field{title}{E-Learning im Untericht: Ein Handbuch zum Einsatz von
+  Lernplattformen in der Schule}
+  \list{location}{1}{%
+    {Boizenburg}%
+  }
+  \field{year}{2011}
+\endentry
+
+\entry{Erpenbeck.2007}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Erpenbeck}{E.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sauter}{S.}%
+     {Werner}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {{Luchterhand in Wolters Kluwer Deutschland}}%
+  }
+  \strng{namehash}{EJSW1}
+  \strng{fullhash}{EJSW1}
+  \field{labelalpha}{ES07}
+  \field{sortinit}{E}
+  \field{isbn}{978-3-472-07089-4}
+  \field{series}{Personalwirtschaft : Buch}
+  \field{title}{Kompetenzentwicklung im Netz: New Blended Learning mit Web 2.0}
+  \list{location}{1}{%
+    {K{\"o}ln}%
+  }
+  \field{year}{2007}
 \endentry
 
 \entry{Edelmann.2012}{book}{}
@@ -301,6 +355,81 @@
   \field{volume}{2}
   \field{journaltitle}{MedienP{\"a}dagogik}
   \field{year}{2002}
+\endentry
+
+\entry{AnsgarA.PlassmannProf.Dr.GunterSchmitt.2007}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Ansgar A. Plassmann, Prof. Dr. G{\"u}nter Schmitt}}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {{Universit{\"a}t Duisburg-Essen}}{U.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{A1}
+  \strng{fullhash}{A1}
+  \field{labelalpha}{{Ans}07}
+  \field{sortinit}{{A}}
+  \field{title}{Lern-Psychologie}
+  \verb{url}
+  \verb https://www.uni-due.de/edit/lp/kognitiv/kognitiv.htm
+  \endverb
+  \field{year}{2007}
+  \warn{\item Invalid format of field 'urldate'}
+\endentry
+
+\entry{PeterVontobel.2006}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Peter Vontobel}}{P.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {{P{\"a}dagogische Hochschule Z{\"u}rich}}{P.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{P1}
+  \strng{fullhash}{P1}
+  \field{labelalpha}{{Pet}06}
+  \field{sortinit}{{P}}
+  \field{title}{Didaktisches Design aus lernpsychologischer Sicht}
+  \verb{url}
+  \verb http://www.sciencetonic.de/media/015_digimedia/050_konzepte/LIT_0210_Di
+  \verb daktisches_Design_Vontobel_2006.pdf
+  \endverb
+  \field{year}{2006}
+  \warn{\item Invalid format of field 'urldate'}
+\endentry
+
+\entry{SusanneMeir.}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Susanne Meir}}{S.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{S1}
+  \strng{fullhash}{S1}
+  \field{labelalpha}{{Sus}}
+  \field{sortinit}{{S}}
+  \field{title}{Didaktischer Hintergrund: Lerntheorien}
+  \verb{url}
+  \verb http://lehrerfortbildung-bw.de/moodle-info/schule/einfuehrung/material/
+  \verb 2_meir_9-19.pdf
+  \endverb
+  \warn{\item Invalid format of field 'urldate'}
 \endentry
 
 \lossort
