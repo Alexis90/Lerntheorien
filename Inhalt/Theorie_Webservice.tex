@@ -1,0 +1,120 @@
+\chapter{Webservices}
+\label{cha:Webservices}
+Webservices, in der Literatur auch Web-Service geschrieben, übertragen Daten zwischen einem Client und einem Server. \cite[S. 5]{Burbiel.2007} Webservices sind von Webanwendungen zu unterscheiden. Webanwendungen werden von Menschen genutzt und die Daten werden über HTML ausgegeben, wohingegen Webservices von anderen Programmen konsumiert werden und die Daten in strukturierten Datenformaten wie \ac{XML} oder \ac{JSON} ausgegeben werden. \cite[S. 93]{Safran.2013}
+
+Webservices sind so Bestandteile verteilter Anwendungen. Eine verteilte Anwendung ist Teil eines verteilten Systems, welches sich dadurch auszeichnet, dass es aus mehreren unabhängigen Bestandteilen besteht. Diese Bestandteile kommunizieren nur über den Austausch von Nachrichten. \cite[S. 5]{Schill.2012}
+
+Aufgrund ihrer Popularität beschreibt Jäger (\citeyear[S. 205]{Jager.2008}) Webservices sogar als den „Grundpfeiler“ des Anwendungstypus' \emph{verteilte Anwendung}. Die einzelnen Bestandteile einer Anwendung, die mit Webservices kommunizieren, tun dies via Internet und greifen dabei in der Regel auf das \ac{HTTP}-Protokoll zurück. \cite[S. 21-23]{Burbiel.2007} Dies hat den Vorteil, dass der für \ac{HTTP}-Kommunikation genutzte Port 80 von Firewalls nicht blockiert wird. \cite[S. 205]{Jager.2008}
+
+\section{HTTP-Request und –Response}
+\label{cha:WS_HTTP_RR}
+Bei der Kommunikation zwischen Server und Client mittels des Protokolls \ac{HTTP} – also auch bei der Kommunikation via Webservice – sendet der Client eine Anfrage (\ac{HTTP}-Request) und empfängt daraufhin vom Server eine Antwort (\ac{HTTP}-Response). \cite[S. 194]{Heiderich.2009}
+
+Das Datenpaket zur Anfrage und zur Antwort besteht jeweils aus einem Kopfteil (Header) und einem Datenteil (Body). Der Header enthält grundlegende Metainformationen zu dem Paket, welche für dessen Verarbeitung entscheidend sind. So enthält der Header der Antwort unter anderem den \emph{Statuscode}, welcher Aufschluss darüber gibt, ob die Anfrage erfolgreich verlief oder nicht. Anfrage- und Antwort-Header geben außerdem Auskunft über die Größe des mitgelieferten Bodys („Content-Length“) und deren Datentyp bzw. Format („Content-Type“). \cite[S. 194-195]{Heiderich.2009}
+
+Der Anfrage-Header gibt außerdem noch die Information mit, um welche Anfragemethode es sich handelt. Für Webservices werden in der Regel die Methoden POST und GET verwendet. Die beiden Methoden unterscheiden sich lediglich durch die Größe der mitgelieferten Daten. Bei GET-Anfragen werden Parameter an die \ac{URL} des aufgerufenen Dienstes angehängt, sodass eine Anfrage dieser Methode begrenzt ist durch die maximale Länge einer \ac{URL} im jeweiligen Browser. Die Parameter einer POST-Anfrage stehen im Body des \ac{HTTP}-Requests und können deshalb nahezu unbegrenzt groß ausfallen. \cite[S. 43]{Burbiel.2007}
+
+Besonders für die Benutzung bei Webservices ist die Zustandslosigkeit von HTTP zu beachten. Zustandslosigkeit bedeutet, dass der Server den anfragenden Client nicht identifiziert und deshalb nicht weiß, welche Anfragen von diesem Client schon gestellt wurden. Dies stellt zum einen eine Herausforderung an die Authentifizierung dar, da \ac{HTTP} selbst so nicht immer bestimmen kann, ob eine Anfrage von einem bestimmten Client erlaubt ist oder nicht. An dieser Stelle bedarf es zusätzlicher Mechanismen. Außerdem kann ein Client in einer Anfrage nicht auf eine vorige Anfrage von ihm verweisen. \cite[S. 199]{Heiderich.2009}
+
+Ruft ein Webservice beispielsweise nach und nach die Seiten eines Buches ab, muss jedes Mal die Information mitgegeben werden, welches Buch und welche Seite abgerufen werden soll. Es reicht nicht nur „die nächste Seite“ abzurufen ohne dabei anzugeben, welche Seite und welches Buch die Anfrage betrifft.
+
+\section{XML}
+
+Die im Body von Request bzw. Response übertragenen Daten zwischen Server und Client einer Anwendung, dessen Kommunikation auf Webservices basiert, nutzen im Fall der SOAP-Methode (siehe Kapitel \ref{sec:SOAP}) \ac{XML}. (Jäger 2008, S. 226) Die Nutzung dieses Formates hat den Vorteil, dass viele Programmiersprachen einen \ac{XML}-Parser mitliefern oder es Bibliotheken von Drittanbietern gibt, die derartige Dienste bereitstellen. \cite[S. 20]{Jager.2008} Ein Parser ist in der Informatik ein Programm, welches Eingaben einer bestimmten Sprache auf ihre Richtigkeit überprüft und die darin enthaltenen Informationen ausgeben kann. \cite[S. 3-4]{Naumann.1994} Außerdem ist \ac{XML} unabhängig von dem Betriebssystem und der Programmiersprache nutzbar, auch wenn die jeweilige Programmiersprache noch keinen vorgefertigten Parser enthält. \cite[S. 14]{Snell.2002}
+
+Ein \ac{XML}-Dokument besteht aus hierarchisch ineinander verschachtelten Elementen. Jedes Element wird mit einem Starttag eingeleitet und einem Endtag abgeschlossen. Diese Tags beginnen mit ‚<‘ und enden mit ‚>‘. \cite[S. 34, 41-44]{North.Hermans.2000}
+Ein \ac{XML}-Element ‚Name‘ mit dem Inhalt ‚Vorname‘ sieht beispielsweise folgendermaßen aus:
+
+\begin{lstlisting}[language=XML]
+<Name>Vorname</Name>
+\end{lstlisting}
+
+Über Attribute im Starttag können Zusatzinformationen mitgegeben werden. \cite[S. 40]{North.Hermans.2000}
+
+\begin{lstlisting}[language=XML]
+<Name attribut1="Merkmalsauspraegung1">Vorname</Name>
+\end{lstlisting}
+
+Das Starttag und das Endtag bilden einen Container, der Daten enthält. Diese Daten können auch weitere Elemente sein. Enthält ein Element keine Daten, kann unter Verwendung eines abgewandelten Starttags der Endtag weggelassen werden. \cite[S. 41]{North.Hermans.2000}
+
+\begin{lstlisting}[language=XML]
+<Name attribut1="Name"/>
+\end{lstlisting}
+
+Von der generischen Sprache XML leiten sich einige andere Sprachen ab. Um innerhalb eines XML-Dokuments eindeutig zu identifizieren, zu welcher XML-Sprache ein Tag gehört, werden sogenannte Namensräume verwendet. \cite{Bray.1998}
+Im folgenden Quelltextbeispiel wird der Tag 'h1' verwendet, der über den vorangestellten Namensraum als Teil der HTML-Sprache identifiziert wird. 
+
+\begin{lstlisting}[language=XML]
+<html:h1>Vorname</html:h1>
+\end{lstlisting}
+
+Damit die zum Namensraum gehörende Sprache auch identifiziert werden kann, muss in dem verwendenden Element oder in einem seiner Elternelemente eine solche Identifizierung wie folgt vorgenommen werden. \cite{Bray.1998}
+
+\begin{lstlisting}[language=XML]
+<html:div
+ xmlns:html='http://www.w3.org/TR/REC-html40'>
+	<html:h1>Vorname</html:h1>
+</html:div>
+\end{lstlisting}
+
+Durch das Nutzen der Tags, welche in der Regel je Element doppelt vorkommen (Start- und Endtag), ist die Menge der Daten, die für eine gewisse Menge Informationen übertragen werden muss, relativ groß. Aus diesem Grund etablieren sich neben \ac{XML} weitere Formate, wie die \ac{JSON}. \cite[S. 226]{Jager.2008}
+
+Da die Exchange Webservices \ac{XML} nutzen, wird auf \ac{JSON} im Zuge dieser Arbeit nicht weiter eingegangen. 
+
+\section{SOAP und RESTful Webservices}
+\label{sec:SOAP}
+Das \ac{SOAP} stellt ein populäres Protokoll für Webservices dar \cite[S. 5]{Burbiel.2007} und spielt für diese Projektarbeit eine besondere Rolle, da die hier behandelten Exchange Webservices auch dieses Protokoll nutzen. Allerdings soll auch die Alternative zu \ac{SOAP}, \ac{REST}, zur Kontrastierung kurz im Bezug auf Webservices erläutert werden.
+
+Das \ac{SOAP}-Protokoll dient dem Austausch strukturierter Daten und benutzt \ac{XML} für diese Strukturierung. \cite{Gudgin.2007} Diese so strukturierten Daten, genannt \ac{SOAP} Nachrichten, haben eine fest vorgegebene Form. Eine \ac{SOAP}-Nachricht besteht aus einem Envelope, welcher optional einen Header und zwingend einen Body enthält.
+ 
+\begin{lstlisting}[language=XML]
+<soap:Envelope
+  xmlns:soap="http:w3.org/2001/06/soap-envelope">
+  <soap:Header></soap:Header>
+  <soap:Body></soap:Body>
+</soap:Envelope>
+\end{lstlisting}
+
+Der Header enthält Metadaten, die für die Verarbeitung des Bodys relevant sind, wie beispielsweise die Identität des Clients, \cite[S. 16]{Snell.2002} und der Body enthält die zu übermittelnden Informationen. \cite{Gudgin.2007} Body und Header dürfen jeweils nur einmal je Envelope auftauchen, dürfen aber beliebig viele Elemente enthalten. (Snell et al. 2002, S. 17)
+
+Die \ac{SOAP}-Nachricht der Anfrage gibt an, welche Funktion des Webservice aufgerufen wird. \cite[S. 28]{Snell.2002} So können unter einer Adresse mehrere Funktionen aufrufbar sein. \cite{Gudgin.2007}
+Eine vollständige Kommunikation mittels \ac{SOAP} besteht aus einer \ac{SOAP}-Nachricht als Anfrage und einer \ac{SOAP}-Nachricht, welche die Antwort darstellt. Allerdings ist eine Antwort nicht unbedingt vorgeschrieben und kann auch entfallen. \cite[S. 17]{Snell.2002} 
+
+\ac{SOAP} ist nicht an die Verwendung für Webservices mit \ac{HTTP} gebunden und SOAP-Nachrichten können auch auf anderem Wege ausgetauscht werden. Allerdings ist \ac{HTTP} aufgrund seines hohen Verbreitungsgrades das populärste Verfahren zum Austausch dieser Nachrichten. \cite[S. 37]{Snell.2002} Da bei SOAP immer Nachrichten ausgetauscht werden, wenn kommuniziert wird, muss hier die POST-Methode verwendet werden. (siehe Kapitel \ref{cha:WS_HTTP_RR})
+
+Im Gegensatz zu \ac{SOAP} verpackt ein Webservice, der gemäß des Paradigmas \ac{REST} arbeitet, auch RESTful Webservice genannt, die Information, welche Methode aufgerufen werden soll, nicht im Body eines \ac{HTTP}-Datenpakets. (Richardson und Ruby 2008, S. 10) Ein RESTful Webservice bedient sich der Methoden von \ac{HTTP}-Anfragen \cite[S. 8]{Richardson.2008} und ist somit - anders als SOAP - an die Nutzung des HTTP-Protokolls gebunden.  Die Parameter werden bei REST nicht im HTTP-Body sondern direkt in die URL verpackt. Daraus ergibt sich ein weiterer Unterschied zwischen \ac{SOAP} und \ac{REST} und zwar der, dass bei \ac{REST} in der Regel jede Methode eines Webservice eine eigene Adresse hat, da üblicherweise die Methode über die \ac{URL} und nicht die Parameter definiert wird. \cite[S. 13]{Richardson.2008}, wohingegen Webservices auf der Basis von \ac{SOAP} eine Adresse für einen Pool von Methoden haben. 
+
+\section{WSDL}
+
+Zur vollständigen Betrachtung von Webservices wird auch das Thema der \ac{WSDL}-Datei kurz beleuchtet.
+
+Die \ac{WSDL} ist relevant für die Beschreibung der zur Verfügung gestellten Dienste und Funktionen eines Webservice durch die \ac{WSDL}-Datei. \cite[S. 24]{Burbiel.2007} 
+Der \ac{WSDL}-Datei kann entnommen werden welche Dienste zur Verfügung stehen, mit welchen Protokollen diese Dienste arbeiten und über welche Adresse diese Dienste erreichbar sind.
+
+Da die \ac{WSDL} auf \ac{XML} basiert, ist es einfach diese programmatisch auszuwerten. Dies eröffnet die Möglichkeit generische Frameworks zur Konsumierung von Webservices zu schreiben. Beispielsweise für Javascript existieren einige dieser Frameworks. \cite[S. 209]{Jager.2008}
+Die Existenz dieser Frameworks führt dazu, dass der gemeine Programmierer bei der Nutzung von Webservices gar nicht mehr direkt mit den \ac{WSDL}-Dateien arbeiten muss, sondern dies von einem Framework erledigen lassen kann. 
+
+\section{AJAX}
+\label{cha:WS_AJAX}
+Bei dem Aufruf von Webservices spielt \ac{AJAX} eine große Rolle. \ac{AJAX} ist ein Programmierparadigma, welches im Jahr 2005 von Jesse James Garret definiert wurde und den Aufruf von Webservices innerhalb von Javascript definiert. \cite[S. 101-102]{Heiderich.2009}
+
+Die übermittelten Daten sollen dabei im \ac{XML}-Format vorliegen und die Kommunikation selber asynchron verlaufen. Asynchrone Kommunikation bedeutet, dass die Kommunikation mit dem Server nebenläufig zur allen weiteren Prozessen der Anwendung läuft. (vgl. \cite[S. 8]{Kitzmann.2008}) Dies führt dazu, dass bei einer Anfrage an den Server die Weboberfläche nicht einfriert oder sogar gegebenenfalls neu geladen werden muss. \cite{Garrett.2005} Das Hauptproblem, welches \ac{AJAX} lösen soll, ist eines der Nutzbarkeit und des Nutzungserlebnisses einer Anwendung. \cite[S.8-9]{Jager.2008} 
+
+Die Dynamik einer \ac{AJAX}-Anwendung birgt viele neue Möglichkeiten für Webanwendungen und sei wichtiger Bestandteil von Web 2.0 (Jäger 2008, S. 10), welches interaktive Webanwendungen postuliert. \cite{OReilly.2005} Gewöhnliche statische \ac{HTML}-Seiten ermöglichen nicht diese Dynamik und Beteiligung des Nutzers, wie sie O’Reilly fordert. (\citeyear{OReilly.2005})
+
+\ac{AJAX} ist neben der Nutzung durch den privaten Internetnutzer auch für Unternehmen ein sehr interessantes Konzept, da unter Berücksichtigung dieses Paradigmas verteilte Anwendungen geschrieben werden können, die plattformunabhängig sind. Diese Plattformunabhängigkeit wird dadurch erreicht, dass \ac{AJAX}-Anwendungen auf jedem Gerät lauffähig sind, welche einen Javascript-fähigen Internetbrowser besitzen. So kann dieselbe Anwendung auf Desktoprechner und an mobilen Geräten gleichermaßen genutzt werden. \cite[S. 11]{Jager.2008}
+
+\section{Same-Origin Policy}
+
+Die \ac{SOP} ist ein Sicherheitsmechanismus moderner Browser, der die Möglichkeiten von Javascript-Code einschränkt. Da ein Browser, der Javascript aktiviert hat, grundsätzlich Webseiten die Erlaubnis gibt unbekannten Quelltext auszuführen, muss der Browser gewisse Sicherheitsbarrieren zur Verfügung stellen, wie \ac{SOP}. \cite[S. 106-109]{Heiderich.2009} \ac{SOP} bedeutet, dass Javascript Code auf einer Webseite nur Daten mit Ressourcen derselben Domain austauschen darf. \ac{SOP} schränkt so auch die Funktionalität von \ac{AJAX} ein, was die Benutzung von Webservices fremder Domänen erschwert.  \cite[S.268]{Jager.2008}
+
+Eine Möglichkeit diesen Sicherheitsmechanismus zu umgehen stellt das Verfahren \ac{CORS} dar. Dieses Verfahren sieht vor, dass der Server in seiner Antwort auf eine Anfrage des Clients, Informationen darüber mitgeben kann, von welchen Domains aus eine Anfrage erfolgen darf, ohne dass die \ac{SOP} des Browsers beachtet werden muss. Diese Erlaubnis gibt der Server im Header des Antwort-Datenpaketes mit. Das Feld heißt \emph{Access-Control-Allow-Origin}. In der Praxis sollte dieses Feld Aufschluss über die Domain des Clients geben, in dessen Webseite die Daten des Servers ohne Beachtung der \ac{SOP} genutzt werden dürfen.
+Beispiel:
+
+\begin{lstlisting}[language=HTML] 
+Access-Control-Allow-Origin = https://www.myhomepage.com/
+\end{lstlisting}
+
+Gibt man dort als Eigenschaft ‚*‘ mit wird die \ac{SOP} ausgeschaltet, da keine Anfrage von irgendeinem Client blockiert wird. Die Eigenschaft ‚*‘ sollte deshalb aus Sicherheitsgründen an dieser Stelle nur zu Testzwecken gesetzt werden.\cite{AnnevanKesteren.2014} 
+
+Die Unterscheidung zwischen Domains ist hier sehr streng. Spricht man dieselbe \ac{URL} nicht über den Standard \ac{HTTP} Port 80 \cite{ISOC.1999} sondern über Port 21 an, verstoße dies schon gegen die \ac{SOP}. Auch eine andere Subdomain (https://mobil.myhomepage.com/) würde einen Fehler aufgrund der \ac{SOP} auslösen. \cite[S.60]{Karlof.2007}

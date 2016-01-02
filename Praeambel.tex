@@ -1,0 +1,175 @@
+% Hinweis: Optionen der Dokumentenklasse werden an alle folgenden \usepackage{package} Befehle weitergegeben
+\documentclass[
+	pdftex,
+	fontsize=12pt,
+	paper=a4,
+	halfparskip,
+	twoside=false,
+	numbers=noenddot,	% Kein Punkt am Ende einer Überschrift
+	%draft=true,			% Deckt Schwächen auf: overfull und full boxes werden markiert; Bilder werden nicht geladen
+	bibliography=totoc,	% Literaturverzeichnis ins Inhaltsverzeichnis aufnehmen
+	listof=totoc,		% Tabellen- und Abbildungsverzeichnis ins Inhaltsverzeichnis aufnehmen
+	titlepage=true,		% Separate Titelseite; Gestaltung mit Hilfe der Titlepage-Umgebung
+	headsepline=true,	% Kopflinie aktivieren
+	footsepline=true	,	% Fußlinie aktivieren
+	abstracton			% Abstract aktivieren
+]{scrreprt}
+
+% Zeichenkodierung Input ist UTF-8: Umlaute können direkt eingegeben werden
+\usepackage[utf8]{inputenc}
+
+% Zeichenkodierung Ausgabe ist T1-Kodierung: Wichtig für die Ausgabe von Umlauten
+\usepackage[T1]{fontenc}
+
+% Schrift festlegen
+\usepackage{lmodern}
+
+% Sprachauswahl für Lokalisierungen und Silbentrennung
+\usepackage[ngerman]{babel}
+
+% Zitate: Anführungszeichen automatisch anhand der Sprache wählen
+\usepackage[babel=true]{csquotes}
+
+% Source-Code-Listings
+\usepackage{listings}
+
+% BibTeX-Symbol
+\usepackage{texnames}
+
+\usepackage{xcolor}
+
+% Symbole, z.B. Haken
+\usepackage{pifont}
+
+% Zeilen in Tabellen zusammenfassen
+\usepackage{multirow}
+
+% Silbentrennung kann bei bestimmten Wörten mit Hilfe von diesem Paket deaktiviert werden 
+\usepackage{hyphenat}
+
+% Abkürzungsverzeichnis
+%\usepackage[printonlyused, withpage]{acronym}
+% Abstand mit Punkten füllen
+%\renewcommand*\aclabelfont[1]{\textbf{\normalsize{#1}}\hfill}
+
+% Tiefe des Inhaltsverzeichnisses
+\setcounter{tocdepth}{2}
+
+% Punkte im Inhaltsverzeichnis
+\usepackage{tocstyle}
+\usetocstyle{allwithdot}
+
+% Zum Einbinden von PDF-Dateien.
+\usepackage{pdfpages}
+
+% Paket zum Anpassen von Kopf- und Fußzeilen
+\usepackage[plainfootsepline, plainheadsepline, headsepline, footsepline, automark]{scrpage2}
+% Liniendicke
+\setheadsepline{0.1pt}
+\setfootsepline{0.1pt}
+
+% Kopf- und Fusszeile löschen
+\clearscrheadfoot
+% Kopf- und Fusszeile aktivieren
+\pagestyle{scrheadings}
+
+% Kopf links
+\ihead[\titel]{\titel}
+
+% Fuss links
+\ifoot[\verfasser]{\verfasser}
+% Fuss rechts
+\ofoot[\pagemark]{\pagemark}
+
+% Grafiken einbinden
+\usepackage{graphicx}
+% Pfad zu den Grafiken
+\graphicspath{{Abbildungen/}}
+
+% Seitenränder setzen
+\usepackage[left=3cm, right=2cm, top=2.5cm, bottom=3cm]{geometry}
+
+% Zeilenabstand auf 1.5 setzen
+\usepackage{setspace}
+\onehalfspacing
+
+% Literaturverzeichnis
+%\usepackage[backend=bibtex,style=authoryear]{biblatex}
+%\usepackage{bibgerm}
+%\usepackage{natbib}
+\usepackage[backend=bibtex,style=alphabetic]{biblatex}
+%\bibliographystyle{alphadin}
+\bibliography{Literatur/Literatur.bib}
+
+% Glossar
+\usepackage[toc,nonumberlist]{glossaries}
+
+% Titel als Referenzierung verwenden
+\usepackage{titleref}
+
+% Währungen
+\usepackage{textcomp}
+
+% Fussnoten fortlaufend nummerieren.
+\usepackage{chngcntr}
+\counterwithout{footnote}{chapter}
+
+% Persönliche Daten
+\newcommand{\titel}{Lerntheorien: Kognitivismus, Konstruktivismus und Konnektivismus}
+\newcommand{\untertitel}{}
+\newcommand{\art}{Seminararbeit}
+\newcommand{\verfasser}{Alexander Hauck und Fabian Berns}
+\newcommand{\kurs}{WWI13B5}
+\newcommand{\ausbildungsbetrieb}{SAP SE}%, Dietmar-Hopp-Allee 16, 69190 Walldorf}
+\newcommand{\abgabedatum}{__________________}
+
+\newcommand{\martrikelnr}{}
+\newcommand{\betreuer}{Frau Judith Hüther}
+\newcommand{\gutachter}{}
+\newcommand{\zeitraum}{November 2015 - Januar 2016}
+
+
+% Links- und PDF-Einstellungen
+\usepackage{hyperref}
+\hypersetup{
+	pdfauthor = {\verfasser},
+	pdftitle = {\titel},
+	pdfsubject = {\art},
+	pdfkeywords = {},
+	pdfstartview = {Fit},
+	colorlinks = {false},
+	breaklinks = {true},
+	bookmarksopen = {true}
+}
+
+% Verhinderung von Schusterjunge und Hurenkind
+\clubpenalty = 10000
+\widowpenalty = 10000
+\displaywidowpenalty = 10000
+
+% Seitenzäler für große, römische Zahlen
+\newcounter{RomanPagenumber}
+
+% Abkürzungen
+\newcommand{\dash}{d.\,h.}
+\newcommand{\zB}{z.\,B.}
+
+%Für Javascript Code
+\usepackage{color}
+\definecolor{lightgray}{rgb}{.9,.9,.9}
+\definecolor{darkgray}{rgb}{.4,.4,.4}
+\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+
+\lstdefinelanguage{JavaScript}{
+	keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+	keywordstyle=\color{blue}\bfseries,
+	ndkeywords={class, export, boolean, throw, implements, import, this},
+	ndkeywordstyle=\color{darkgray}\bfseries,
+	identifierstyle=\color{black},
+	sensitive=false,
+	comment=[l]{//},
+	morecomment=[s]{/*}{*/},
+	commentstyle=\color{purple}\ttfamily,
+	morestring=[b]',
+	morestring=[b]",
+}

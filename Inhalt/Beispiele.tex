@@ -1,0 +1,91 @@
+\chapter{Beispiele}
+\label{cha:Beispiele}
+
+\section{Zitieren}
+
+\enquote{Ich bin ein direktes Zitat} nach \citeauthor{Nachname.2013} aus \cite[42]{.2000}.
+
+\enquote{Ich bin ein direktes Zitat} nach \citeauthor{Glover.2006} aus \cite[42]{Glover.2006}.
+\section{Verweise}
+
+\autoref{cha:Beispiele} zeigt ab Seite~\pageref{cha:Beispiele} Beispiele zur Syntax von \LaTeX{}.
+
+Titel zitieren: \citetitle{Nachname.2013}
+
+\section{Aufzählungen}
+\label{sec:Aufzaehlungen}
+
+\subsection{Itemize}
+
+\begin{itemize}
+	\item
+		Ich bin das erste Item
+	\item
+		Ich bin das zweite Item.
+\end{itemize}description
+
+\subsection{Enumerate}
+
+\begin{enumerate}
+	\item
+		Ich bin das erste Item
+	\item
+		Ich bin das zweite Item.
+\end{enumerate}
+
+\subsection{Description}
+
+\begin{description}
+	\item[Item 1]
+		Ich bin das erste Item
+	\item[Item 2]
+		Ich bin das zweite Item.
+\end{description}
+
+\section{Abbildungen}
+
+In \autoref{fig:LogoDHBW Karlsruhe} auf Seite~\pageref{fig:LogoDHBW Karlsruhe} ist das Logo der DHBW Karlsruhe zu sehen.
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[scale=0.75]{Abbildungen/Logo_DHBW_Karlsruhe.png}
+	\caption{Logo der DHBW Karlsruhe}
+	\label{fig:LogoDHBW Karlsruhe}
+\end{figure}
+
+\section{Tabellen}
+
+Tabelle~\ref{tbl:TestTabelle} auf Seite~\pageref{tbl:TestTabelle} zeigt eine Test-Tabelle.
+
+\begin{table}[!htbp]
+	\centering
+	\begin{tabular}{ll}
+		\textbf{Test}	& \textbf{Test}\\
+		\hline
+		Test 	&	Test\\
+		Test 	&	Test\\
+		\hline
+	\end{tabular}
+	\caption{Test-Tabelle}
+	\label{tbl:TestTabelle}
+\end{table}
+
+\begin{table}[!htbp]
+	\centering
+	\begin{tabular}{ll}
+		\textbf{Test}	& \textbf{Test}\\
+		\hline
+		Test 	&	Test\\
+		Test 	&	Test\\
+		\hline
+	\end{tabular}
+	\caption{Test-Tabelle 2}
+	\label{tbl:TestTabelle2}
+\end{table}
+
+\section{Abkürzungen}
+
+\ac{T} ist eine Abkürzung.
+\ac{T} wird beim ersten Vorkommen zur Erklärung ausgeschrieben.
+
+Und noch eine Abkürzung: \ac{TT}.

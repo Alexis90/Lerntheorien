@@ -1,0 +1,309 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Anderson.1999}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Anderson}{A.}%
+     {Terry}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kanuka}{K.}%
+     {Heather}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Radical Pedagogy}%
+  }
+  \strng{namehash}{ATKH1}
+  \strng{fullhash}{ATKH1}
+  \field{labelalpha}{AK99}
+  \field{sortinit}{A}
+  \field{title}{Using constructivism in technology-mediated learning:
+  Constructing order out of the chaos in the literature}
+  \field{year}{1999}
+\endentry
+
+\entry{Bereiter.1994}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bereiter}{B.}%
+     {Carl}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JSTOR}%
+  }
+  \strng{namehash}{BC1}
+  \strng{fullhash}{BC1}
+  \field{labelalpha}{Ber94}
+  \field{sortinit}{B}
+  \field{pages}{21\bibrangedash 23}
+  \field{title}{Constructivism, socioculturalism, and Popper's world 3}
+  \field{journaltitle}{Educational researcher}
+  \field{year}{1994}
+\endentry
+
+\entry{Edelmann.2012}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Edelmann}{E.}%
+     {Walter}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wittmann}{W.}%
+     {Simone}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Beltz}%
+  }
+  \strng{namehash}{EWWS1}
+  \strng{fullhash}{EWWS1}
+  \field{labelalpha}{EW12}
+  \field{sortinit}{E}
+  \field{title}{Lernpsychologie: Mit Online-Materialien}
+  \field{year}{2012}
+\endentry
+
+\entry{Irle.1986}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Irle}{I.}%
+     {Eva}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Unger}{U.}%
+     {Fritz}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {German}%
+  }
+  \list{publisher}{1}{%
+    {Physica-Verlag HD}%
+  }
+  \strng{namehash}{IE1}
+  \strng{fullhash}{IE1}
+  \field{labelalpha}{Irl86}
+  \field{sortinit}{I}
+  \field{booktitle}{Konsumentenpsychologie und Markenartikel}
+  \verb{doi}
+  \verb 10.1007/978-3-642-93621-0_5
+  \endverb
+  \field{isbn}{978-3-642-93622-7}
+  \field{pages}{122\bibrangedash 140}
+  \field{title}{Lerntheorien}
+  \verb{url}
+  \verb http://dx.doi.org/10.1007/978-3-642-93621-0_5
+  \endverb
+  \field{year}{1986}
+\endentry
+
+\entry{Jonassen.1992}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jonassen}{J.}%
+     {David~H}{D.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{JDH1}
+  \strng{fullhash}{JDH1}
+  \field{labelalpha}{Jon92}
+  \field{sortinit}{J}
+  \field{pages}{137\bibrangedash 148}
+  \field{title}{Evaluating constructivistic learning}
+  \field{journaltitle}{Constructivism and the technology of instruction: A
+  conversation}
+  \field{year}{1992}
+\endentry
+
+\entry{Kerres.2001}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kerres}{K.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Oldenbourg Verlag}%
+  }
+  \strng{namehash}{KM1}
+  \strng{fullhash}{KM1}
+  \field{labelalpha}{Ker01}
+  \field{sortinit}{K}
+  \field{title}{Multimediale und telemediale Lernumgebungen: Konzeption und
+  Entwicklung}
+  \field{year}{2001}
+\endentry
+
+\entry{Koohang.2009}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Koohang}{K.}%
+     {Alex}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Riley}{R.}%
+     {Liz}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smith}{S.}%
+     {Terry}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schreurs}{S.}%
+     {Jeanne}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KA+1}
+  \strng{fullhash}{KARLSTSJ1}
+  \field{labelalpha}{Koo+09}
+  \field{sortinit}{K}
+  \field{number}{1}
+  \field{pages}{91\bibrangedash 109}
+  \field{title}{E-learning and constructivism: From theory to application}
+  \field{volume}{5}
+  \field{journaltitle}{Interdisciplinary Journal of E-Learning and Learning
+  Objects}
+  \field{year}{2009}
+\endentry
+
+\entry{Reinmann.2013}{inproceedings}{}
+  \true{moreauthor}
+  \name{author}{1}{}{%
+    {{}%
+     {Reinmann}{R.}%
+     {Gabi}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RG+1}
+  \strng{fullhash}{RG+1}
+  \field{labelalpha}{Rei+13}
+  \field{sortinit}{R}
+  \field{booktitle}{L3T. Lehrbuch f{\"u}r Lernen und Lehren mit Technologien}
+  \field{title}{Didaktisches Handeln. Die Beziehung zwischen Lerntheorien und
+  Didaktischem Design}
+  \field{year}{2013}
+\endentry
+
+\entry{Suchman.1987}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Suchman}{S.}%
+     {Lucy~A}{L.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge university press}%
+  }
+  \strng{namehash}{SLA1}
+  \strng{fullhash}{SLA1}
+  \field{labelalpha}{Suc87}
+  \field{sortinit}{S}
+  \field{title}{Plans and situated actions: the problem of human-machine
+  communication}
+  \field{year}{1987}
+\endentry
+
+\entry{Tobias.1991}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Tobias}{T.}%
+     {Sigmund}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TS1}
+  \strng{fullhash}{TS1}
+  \field{labelalpha}{Tob91}
+  \field{sortinit}{T}
+  \field{number}{9}
+  \field{title}{An Eclectic Examination of Some Issues in the
+  Constructivist-ISD Controversy}
+  \field{volume}{31}
+  \field{journaltitle}{Educational Technology}
+  \field{year}{1991}
+\endentry
+
+\entry{Weinert.1996}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Weinert}{W.}%
+     {Franz~Emanuel}{F.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Hogrefe}%
+  }
+  \strng{namehash}{WFE1}
+  \strng{fullhash}{WFE1}
+  \field{labelalpha}{Wei96}
+  \field{sortinit}{W}
+  \field{booktitle}{Psychologie des Lernens und der Instruktion}
+  \field{pages}{1\bibrangedash 48}
+  \field{title}{Lerntheorien und Instruktionsmodelle}
+  \field{year}{1996}
+\endentry
+
+\entry{WittKerres.2002}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Witt}{W.}%
+     {Michael}{M.}%
+     {de}{d.}%
+     {Claudia;~Kerres}{C.~K.}}%
+  }
+  \list{publisher}{1}{%
+    {Pestalozzianum}%
+  }
+  \strng{namehash}{WCKMd1}
+  \strng{fullhash}{WCKMd1}
+  \field{labelalpha}{Wit02}
+  \field{sortinit}{W}
+  \field{number}{2}
+  \field{pages}{1\bibrangedash 22}
+  \field{title}{Quo vadis Mediendidaktik? Zur theoretischen Fundierung von
+  Mediendidaktik}
+  \field{volume}{2}
+  \field{journaltitle}{MedienP{\"a}dagogik}
+  \field{year}{2002}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

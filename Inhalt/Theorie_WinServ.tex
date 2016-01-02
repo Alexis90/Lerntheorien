@@ -1,0 +1,102 @@
+\chapter{Windows Server}
+\label{cha:Windows Server}
+Im folgenden Kapitel geht es um den \ac{MS} Windows Server, bei dem es sich um eine speziell für Server ausgelegte Reihe an Betriebssystemen der Softwarefirma Microsoft handelt. Dieses Thema ist im Kontext dieser Arbeit relevant, da der \ac{MS} Exchange Server, auf dem die \ac{EWS} laufen, \ac{MS} Windows Server als Betriebssystem benötigt. Darüber hinaus wird in diesem Kapitel auch das Thema Authentifikation im Hinblick auf den Windows Server betrachtet. (siehe Kapitel \ref{cha:WinServ_Auth})
+
+Der Windows Server bietet viele Funktionen, die über die Windows-Versionen für Privatanwender hinaus gehen, wie zum Beispiel Netzwerkbenutzerdienste, spezielle Sicherheitsdienste und Dienste für Webserver. \cite{Boddenberg.2014}
+
+\section{Exchange Server}
+\label{cha:WinServ_ExchServ}
+Der Exchange Server stellt die Server-Komponente einer Groupware der Softwarefirma Microsoft dar. \cite[S. 3]{Becker.2014}
+Bei einer Groupware handelt es sich um Software, die den Zweck hat Kooperation im Team und in Organisationen zu unterstützen. Unter diesen Begriff kann neben computergestützter Kommunikation, wie E-Mail und Audio- und Videokonferenzen, auch Software zur Modellierung und Entwicklung von Organisationen fallen. \cite[S. 1-2]{Wagner.2013} Der Microsoft Exchange Server bildet nur den ersten dieser beiden Aspekte unter vornehmlicher Nutzung der E-Mail als Kommunikationsmedium ab. Becker et. al. (\citeyear[S. 2-3]{Becker.2014}) definieren die folgenden drei Aufgaben von Groupware-Systemen.
+
+Eine Aufgabe stellt die \emph{Kommunikation} dar. Eine Groupware ermöglicht den asynchronen oder synchronen Austausch von Informationen oder Daten zwischen Nutzern. Bei synchronen Verfahren folgen Senden und Empfangen der Information direkt aufeinander. Bei asynchronen Verfahren kann zwischen Versand und Empfang etwas Zeit vergehen. Mit Nutzung der E-Mail zur Bewältigung der Kommunikation geht der Exchange Server nach dem asynchronen Modell vor. \cite[S. 1]{PankokeBabatz.2001}
+
+Die zweite genannte Aufgabe ist die \emph{Kollaboration} verschiedener Personen. \cite[S. 2]{Becker.2014}  Die Groupware kann die Zusammenarbeit durch Funktionen unterstützen, die es einer Gruppe von Personen erlaubt Daten bezüglich gemeinsamer Aktivitäten zu teilen. Dies kann über die Nutzung zentraler Datenspeicher oder den Austausch von elektronischen Nachrichten erfolgen. \cite{Pizano.} Durch die Unterstützung der E-Mail deckt der Exchange Server diesen Bereich ebenfalls ab.
+
+An dritter Stelle wird die Aufgabe \emph{Koordination} genannt. Darunter verstehen Becker et. al. (\citeyear[S. 3]{Becker.2014}) „die Abstimmung von Akteuren, Aktivitäten und Ressourcen“. Neben den Funktionalitäten eines E-Mail-Servers bietet der Exchange Server auch einen Kalender für den Nutzer. Es können Termine mit anderen abgestimmt und es kann auf Kalender anderer zugegriffen werden. \cite[S. 485-486]{Joos.2010} Auf diese Weise unterstützt der Exchange Server auch die Koordination von Teams.
+
+Die Client-Komponente dieser Groupware bildet \ac{MS} Outlook. \cite[S. 590]{Joos.2010} Outlook unterstützt neben der Kommunikation via E-Mail unter anderem auch eine Adressverwaltung und Teamkoordination über die Nutzung der vom Exchange Server bereitgestellten Kalenderfunktion. \cite[S. 589]{Joos.2010}
+
+\section{Internet Information Service}
+
+Der \ac{IIS} ist der Webserver innerhalb des Windows Servers. \cite[S. 909]{Boddenberg.2014} Dieser eigene Dienst innerhalb des Servers bietet Möglichkeiten zur Veröffentlichung von sowohl statischen als auch dynamischen Webseiten und Webservices. Dazu verwaltet der \ac{IIS} jede dieser Anwendungen in einem separaten \emph{Application Pool}, in dem diese getrennt von anderen ausgeführt werden. \cite[S. 75-76]{Hockmann.2008}
+
+Für jede der in diesem Pool verwalteten Anwendungen können die Einstellungen separat angepasst werden. Dies betrifft vor allen Dingen die \emph{web.config-Datei}. \cite[S. 919, 921]{Joos.2010} In dieser Datei wird unter anderem festgelegt, welche Authentifizierungsmethode verwendet werden soll. \cite[S. 13]{Bradley.2003} Besonders bei den dynamischen Webseiten spielt die Authentifizierung eine Rolle. \cite[S. 909]{Boddenberg.2014}
+
+\section{Authentifikation}
+\label{cha:WinServ_Auth}
+Drei Authentifizierungsmöglichkeiten des \ac{IIS} werden in diesem Kapitel dargelegt. Da für die spätere Implementierung die Methode \ac{IWA} genutzt werden soll, werden speziell die zwei Authentifizierungsmöglichkeiten, welche \ac{IWA} unterstützt, im Folgenden dargestellt. (Kapitel \ref{cha:WS_AUTH_ChalResp} und \ref{cha:WS_AUTH_Kerberos}) Zur Kontrastierung wird die Beschreibung der simplen Methode Basic Authentication vorangestellt.(Kapitel \ref{cha:WinServ_Auth_Basic}). Zunächst folgt allerdings Grundlegendes zum Thema Authentifikation.
+
+Authentifikation ist von der Identifikation zu trennen. Bei der Identifikation geht es um die Feststellung der Identität und bei der Authentifikation geht es um den Nachweis bzw. den Beweis, dass die Identifikation richtig ist. Die Authentifikation ist eine verifizierte Identifikation. \cite[S. 198]{Eckert.2009}
+
+Zur Authentifikation werden Merkmale festgelegt, mit denen die Identität nachgewiesen werden soll. Dies kann ein geheimes Passwort sein, aber die Merkmale können auch biometrischer Art sein. \cite[S. 198]{Eckert.2009}
+Mittels verschiedener Verfahren lässt sich eine Authentifikation bewerkstelligen, wobei die Wahl des Verfahrens mit über die Sicherheit der Authentifizierung entscheidet.
+
+Bei unauthorisiertem Zugriff auf eine Webressource kann der Webserver, so auch der \ac{IIS}, über das Feld \emph{WWW-Authenticate} im Antwort-Header der HTTP-Response (siehe Kapitel \ref{cha:WS_HTTP_RR}) mitteilen, welche Authentifizierung (siehe Kapitel \ref{cha:WinServ_Auth}) vom Client erwartet wird. \cite{Franks.1999} Dieses Feld kann je nach Authentifizierungsmethode auch zusätzlich die Challenge (siehe dazu Kapitel \ref{cha:WS_AUTH_ChalResp}) oder die entsprechend verschlüsselten Zugangsdaten (siehe dazu Kapitel \ref{cha:WS_AUTH_Kerberos}) enthalten. Letzteres wird als sogenannter Authentication Request bezeichnet. \cite{Jaganathan.2006}
+
+%Im Folgenden werden zunächst das einfache Verfahren Basic Authentification und dann die aufwändigeren Verfahren \ac{NTLM} und Kerberos vorgestellt.
+
+\subsection{Basic Authentification}
+\label{cha:WinServ_Auth_Basic}
+Die \ac{ISOC} hat mit dem \ac{RFC} der Nummer 2617 einen de-facto Standard für die Authentifizierung unter der Nutzung des HTTP-Protokolls geschaffen. Diese Art der Authentifizierung basiert auf der Authentifizierung mit Passwort und Nutzer-ID.  Beide zusammen werden mit einem Codierungsverfahren namens Base64 codiert. Die einzelne Zeichenkette, welche sich aus der Codierung von Nutzer-ID und Passwort ergibt, wird als Klartext an den Server zur Authentifizierung übertragen. \cite{Franks.1999}
+
+Das Verfahren wird als nicht sicher eingestuft, da Passwort und Nutzer-ID zwar codiert, aber nicht verschlüsselt übertragen werden. So können diese sensiblen Informationen von Dritten mitgelesen werden. Die Nutzung der mit \ac{SSL} verschlüsselten Variante des \ac{HTTP}-Protokolls, \ac{HTTPS}, in Verbindung mit der Basic Authentification wird hingegen als sicher angesehen. \cite{Franks.1999}
+
+\subsection{Challenge-Response Verfahren - NTLM}
+\label{cha:WS_AUTH_ChalResp}
+Eine Schwachstelle der Basic Authentication ist, dass das gemeinsame Geheimnis von Server und Client, das Passwort, unverschlüsselt versendet wird. Diese Schwachstelle soll durch das Challenge-Response Verfahren behoben werden, indem hier nicht direkt das gemeinsame Geheimnis, sondern ein Beweis, dass dem Client das Geheimnis bekannt ist, mitgeschickt wird. \cite[S. 56-57]{Prohl.2011}
+
+Im Authentifizierungsprozess zwischen Client und Server wird zunächst die Nutzer-ID des Clients gesendet. Daraufhin sendet der Server eine sogenannte Challenge (dt. Herausforderung) an den Client, mithilfe derer der Client eine Antwort aus dem gemeinsamen Geheimnis und der Challenge generiert. Die Antwort wird an den Server gesendet, der mit der von ihm generierten Challenge und dem gemeinsamen Geheimnis auch eine Antwort generiert hat. Dann kann der Server seine Antwort und die Antwort des Clients vergleichen und so verifizieren, dass er und der Client das gemeinsame Geheimnis kennen. \cite[S. 57-58]{Prohl.2011}
+
+Das Challenge-Response Verfahren verhütet die Authentifizierung gegen Angriffe nach dem Typus \emph{man-in-the-middle}. Dies sind Angriffe bei denen ein Dritter die Kommunikation zwischen Client und Server mithört, um die Zugangsdaten des Clients abzugreifen. Ein erfolgreicher Angriff dieser Art ermöglicht es dem Dritten sich später mit der Identität des so angegriffenen Clients beim Server zu authentifizieren. \cite[S. 413]{Eckert.2009} Damit der Dritte durch wiederholtes Mithören von solchen Authentifizierungsvorgängen nicht das gemeinsame Geheimnis herausfindet, darf jede Challenge nur einmal verwendet werden. \cite[S. 59]{Prohl.2011}
+
+Das Authentifizierungsprotokoll \ac{NTLM}, eingeführt mit Windows NT, basiert auf dem Challenge-Response Verfahren. \cite{Durlanik.2005} \ac{NTLM} wird nach wie vor verwendet und hat somit Relevanz. Es gilt aber als veraltet. \cite[S. 975-976]{Boddenberg.2014}
+
+\subsection{Kerberos}
+\label{cha:WS_AUTH_Kerberos}
+Es handelt sich bei Kerberos um ein Authentifizierungssystem, welches für Netzwerke aus Windows- und Unix-Rechner erdacht wurde. \cite[S. 70]{Boer.2011} Kerberos verursacht im Gegensatz zu Challenge-Response Verfahren wesentlich weniger Datenverkehr. \cite[S. 59]{Prohl.2011}
+
+Zu einer funktionierenden Kerberos-Architektur gehört neben dem obligatorischen Client und Server ein \ac{AS}.
+%neu
+Client und Server müssen einen "kryptographischen Langzeitschlüssel" besitzen, \cite[S. 65]{Prohl.2011} die im folgenden als Client und Server Key bezeichnet werden. Der Client Key leitet sich in der Regel vom Nutzerpasswort ab. \cite[S. 66]{Prohl.2011} Für die Authentifikation ist es elementar wichtig, dass der \ac{AS} die Keys aller Clients und Server kennt. \cite{Kohl.September1993} Das Protokoll sieht folgenden Ablauf vor. Eingangs schickt der Client eine Anfrage, welche Daten zur Identifizierung von sich selbst und des angefragten Servers enthält, an den \ac{AS}. Diese Identifizierungsdaten werden im Folgenden Client bzw. Server Identität genannt.
+
+Die Antwort des \ac{AS} enthält im Wesentlichen zwei Teile. 
+Der erste Teil ist für den Client bestimmt und deshalb mit dessen Key verschlüsselt. Er umfasst den Server Key und einen sogenannten Session Key. 
+%So kommt nur der Client, der auch zur gesendeten Client-Identität passt, an den Session Key, da zur Entschlüsselung dieses ersten Teils der Client Key benötigt wird.
+Das sogenannte Ticket wurde mit dem Key des angefragten Servers verschlüsselt und stellt den zweiten wesentlichen Teil der Antwort dar, enthält ebenfalls den Session Key und die Identität des Clients.
+Auf Basis seiner Identität und eines aktuellen Zeitstempels kann der Client darauffolgend den sogenannten Authentikator verschlüsselt mit dem Session Key erstellen. \cite{Kohl.September1993}
+
+Mit dem Ticket und dem Authentikator kann der Client nun eine Anfrage an den Server stellen. Dadurch kennt der Server auch den Session Key und die Identität des Clients, da er das Ticket mit seinem Server Key entschlüsseln kann. Der Server kann so den Client authentifizieren, da nur der \emph{wirkliche} Client den Session Key bekommen kann. Optional kann sich nun auch der Server gegenüber dem Client ebenfalls über einen neuen Authentikator authentifizieren. \cite[S. 69-70]{Prohl.2011}
+
+Mithilfe des sogenannten \emph{Reply Cache} soll verhindert werden, dass ein Dritter das Senden von Authentikator und Ticket mithört und diese ebenfalls zur Authentifizierung sendet. Der Replay Cache enthält alle bereits empfangenen Authentifikatoren, sodass abgeglichen werden kann, ob ein Authentikator schon einmal verwendet wurde. \cite[S. 70]{Prohl.2011} Der Zeitstempel des Authentikator macht diesen eindeutig.
+
+%neu ende
+
+Diese Authentifizierungsmethode wurde mittels einiger Standards der Organisation \ac{ISOC} in Form von \ac{RFC} standardisiert.
+\ac{RFC} 1510 \cite{Kohl.September1993} definiert Kerberos auch für den Fall als sicher, wenn der Authentifizierungs-Datenverkehr mitgelesen, geändert oder von Dritten selbst initiiert werden kann.
+Kerberos ist \ac{NTLM} in Sachen Sicherheit und Geschwindigkeit überlegen und wird, auch weil es ein offener Standard ist, gegenüber \ac{NTLM} bevorzugt verwendet. \cite[S. 222]{Clercq.2004}
+
+In einer Systemlandschaft auf Windowsbasis wird die Rolle des Authentifizierungsservers durch das \emph{Active Directory} des Windows Servers übernommen. \cite[S. 89]{Boer.2011} Dieses bietet neben der Unterstützung der Authentifizierung mit Kerberos auch einen Domaincontroller, mit dem unter anderem die Nutzer einer Windows-Domain verwaltet werden. \cite[S. 221-223]{Boddenberg.2014}
+
+\subsection{Single Sign On per Integrated Windows Authentication}
+\label{cha:WS_SSO_IWA}
+\ac{SSO} bedeutet, dass ein Nutzer sich nach Authentifizierung an einem System, welches zu einer \ac{SSO}-Systemlandschaft gehört, gegenüber den übrigen Systemen der Landschaft nicht mehr separat authentifizieren muss. \cite[S. 69]{Graf.2008}
+Die \ac{IWA} ist eine \ac{SSO}-Methode der Firma Microsoft \cite[S. 76]{Boer.2011} und nutzt zur Authentifizierung entweder Kerberos oder, falls Kerberos nicht vom Client unterstützt wird, \ac{NTLM}. \cite[S. 222]{Clercq.2004} 
+
+Die Anmeldedaten müssen vom Nutzer allerdings nicht manuell eingegeben werden, sondern werden automatisch über die Daten, mit denen sich der Nutzer am Betriebssystem selber authentifiziert hat, bezogen. \cite[S. 41]{MicrosoftCorporation.2015} Dafür muss die Nutzerauthentifizierung über eine Windows-Domäne abgewickelt werden, auf die neben dem Client auch der Server Zugriff hat. \cite{MicrosoftCorporation.2003} Bei vorhandenem Windows Server mit Windows Domäne ermöglicht \ac{IWA} \ac{SSO} zu implementieren, ohne zusätzliche Infrastruktur dafür aufzubauen. Unter anderem deshalb ist diese Authentifizierungsmethode sehr weit verbreitet. \cite[S. 972]{Boddenberg.2014}
+
+Ist eine Authentifizierung über die Anmeldeinformationen des aktuellen Nutzers nicht möglich, so wird über den Browser ein Fenster geöffnet, in das man die Anmeldeinformationen manuell eintragen kann. \cite[S. 223]{Clercq.2004}
+
+\section{Exchange Webservices}
+
+Die \ac{EWS} sind seit der Version 2007 Teil des \ac{MS} Exchange Server. \cite{MicrosoftCorporation.2010} Sie dienen zur Kommunikation zwischen dem Exchange Server und Client Anwendungen und bieten einen Großteil der Informationen und Funktionen, welche auch über Microsofts eigenen Client für den Exchange Server, \ac{MS} Outlook, bezogen werden können. \cite{MicrosoftCorporation.2010}
+
+Über den \ac{IIS} des Windows Servers, auf dem der Exchange Server installiert wurde, werden die Exchange Webservices als separate Anwendung verwaltet. \cite{MicrosoftCorporation.2010} Deshalb besitzen die EWS auch eine eigene Webadresse, über die diese erreicht werden können. %\cite[S. 43]{Reschenhofer.2011} 
+Die Adresse des Webservice setzt sich aus der Adresse des \ac{IIS} des Servers, dem Kürzel \emph{EWS} und der dort abgefragten Datei \emph{Exchange.asmx} zusammen \cite{MicrosoftCorporation.2014}:
+
+\begin{lstlisting}[language=HTML] 
+https://serveradresse/EWS/Exchange.asmx
+\end{lstlisting}
+
+Der Webservice wird über \ac{HTTP}-Requests nach \ac{SOAP}-Standard angesprochen. Die Antwort des Exchange Servers kann sowohl nur über Erfolg oder Misserfolg der Abfrage berichten, als auch die angeforderten Daten enthalten. \cite{MicrosoftCorporation.2009}
+Über diesen \ac{SOAP}-Webservice wird es ermöglicht Datenelemente, wie E-Mails, Termine oder Kontakte, Ordner und Datenanhänge aus Microsoft Exchange abzurufen, zu erstellen, abzuändern und zu löschen. \cite{MicrosoftCorporation.2013}
