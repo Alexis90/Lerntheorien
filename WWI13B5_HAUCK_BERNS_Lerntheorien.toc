@@ -28,6 +28,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Fazit}{8}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Beigaben}{IV}{chapter*.4}
+\contentsline {chapter}{\nonumberline Beigaben}{IV}{appendix*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literatur}{V}{chapter*.5}
+\contentsline {chapter}{\nonumberline Literatur}{V}{appendix*.5}
