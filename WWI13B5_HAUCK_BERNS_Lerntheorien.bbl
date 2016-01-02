@@ -253,6 +253,58 @@
   \field{year}{2009}
 \endentry
 
+\entry{SusanneMeir.}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Meir}{M.}%
+     {Susanne}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MS1}
+  \strng{fullhash}{MS1}
+  \field{labelalpha}{Mei}
+  \field{sortinit}{M}
+  \field{title}{Didaktischer Hintergrund: Lerntheorien}
+  \verb{url}
+  \verb http://lehrerfortbildung-bw.de/moodle-info/schule/einfuehrung/material/
+  \verb 2_meir_9-19.pdf
+  \endverb
+  \warn{\item Invalid format of field 'urldate'}
+\endentry
+
+\entry{AnsgarA.PlassmannProf.Dr.GunterSchmitt.2007}{misc}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Plassmann}{P.}%
+     {Ansgar~A.}{A.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schmitt}{S.}%
+     {Prof. Dr.~G{\"u}nter}{P.~D.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {{Universit{\"a}t Duisburg-Essen}}{U.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PAASPDG1}
+  \strng{fullhash}{PAASPDG1}
+  \field{labelalpha}{PS07}
+  \field{sortinit}{P}
+  \field{title}{Lern-Psychologie}
+  \verb{url}
+  \verb https://www.uni-due.de/edit/lp/kognitiv/kognitiv.htm
+  \endverb
+  \field{year}{2007}
+  \warn{\item Invalid format of field 'urldate'}
+\endentry
+
 \entry{Reinmann.2013}{inproceedings}{}
   \true{moreauthor}
   \name{author}{1}{}{%
@@ -312,6 +364,34 @@
   \field{year}{1991}
 \endentry
 
+\entry{Vontobel.2006}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Vontobel}{V.}%
+     {Peter}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {{P{\"a}dagogische Hochschule Z{\"u}rich}}{P.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{VP1}
+  \strng{fullhash}{VP1}
+  \field{labelalpha}{Von06}
+  \field{sortinit}{V}
+  \field{title}{Didaktisches Design aus lernpsychologischer Sicht}
+  \verb{url}
+  \verb http://www.sciencetonic.de/media/015_digimedia/050_konzepte/LIT_0210_Di
+  \verb daktisches_Design_Vontobel_2006.pdf
+  \endverb
+  \field{year}{2006}
+  \warn{\item Invalid format of field 'urldate'}
+\endentry
+
 \entry{Weinert.1996}{incollection}{}
   \name{author}{1}{}{%
     {{}%
@@ -334,19 +414,24 @@
 \endentry
 
 \entry{WittKerres.2002}{article}{}
-  \name{author}{1}{}{%
+  \name{author}{2}{}{%
     {{}%
      {Witt}{W.}%
-     {Michael}{M.}%
+     {Claudia}{C.}%
      {de}{d.}%
-     {Claudia;~Kerres}{C.~K.}}%
+     {}{}}%
+    {{}%
+     {Kerres}{K.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
   }
   \list{publisher}{1}{%
     {Pestalozzianum}%
   }
-  \strng{namehash}{WCKMd1}
-  \strng{fullhash}{WCKMd1}
-  \field{labelalpha}{Wit02}
+  \strng{namehash}{WCdKM1}
+  \strng{fullhash}{WCdKM1}
+  \field{labelalpha}{WK02}
   \field{sortinit}{W}
   \field{number}{2}
   \field{pages}{1\bibrangedash 22}
@@ -355,81 +440,6 @@
   \field{volume}{2}
   \field{journaltitle}{MedienP{\"a}dagogik}
   \field{year}{2002}
-\endentry
-
-\entry{AnsgarA.PlassmannProf.Dr.GunterSchmitt.2007}{misc}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{Ansgar A. Plassmann, Prof. Dr. G{\"u}nter Schmitt}}{A.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \name{editor}{1}{}{%
-    {{}%
-     {{Universit{\"a}t Duisburg-Essen}}{U.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{A1}
-  \strng{fullhash}{A1}
-  \field{labelalpha}{{Ans}07}
-  \field{sortinit}{{A}}
-  \field{title}{Lern-Psychologie}
-  \verb{url}
-  \verb https://www.uni-due.de/edit/lp/kognitiv/kognitiv.htm
-  \endverb
-  \field{year}{2007}
-  \warn{\item Invalid format of field 'urldate'}
-\endentry
-
-\entry{PeterVontobel.2006}{misc}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{Peter Vontobel}}{P.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \name{editor}{1}{}{%
-    {{}%
-     {{P{\"a}dagogische Hochschule Z{\"u}rich}}{P.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{P1}
-  \strng{fullhash}{P1}
-  \field{labelalpha}{{Pet}06}
-  \field{sortinit}{{P}}
-  \field{title}{Didaktisches Design aus lernpsychologischer Sicht}
-  \verb{url}
-  \verb http://www.sciencetonic.de/media/015_digimedia/050_konzepte/LIT_0210_Di
-  \verb daktisches_Design_Vontobel_2006.pdf
-  \endverb
-  \field{year}{2006}
-  \warn{\item Invalid format of field 'urldate'}
-\endentry
-
-\entry{SusanneMeir.}{misc}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{Susanne Meir}}{S.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{S1}
-  \strng{fullhash}{S1}
-  \field{labelalpha}{{Sus}}
-  \field{sortinit}{{S}}
-  \field{title}{Didaktischer Hintergrund: Lerntheorien}
-  \verb{url}
-  \verb http://lehrerfortbildung-bw.de/moodle-info/schule/einfuehrung/material/
-  \verb 2_meir_9-19.pdf
-  \endverb
-  \warn{\item Invalid format of field 'urldate'}
 \endentry
 
 \lossort
