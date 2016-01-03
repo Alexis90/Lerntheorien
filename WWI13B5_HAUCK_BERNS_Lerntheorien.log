@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.5.8)  3 JAN 2016 19:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.5.8)  3 JAN 2016 22:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1625,12 +1625,12 @@ number indent by \l@... (toc, 2):  44.64938pt
 text indent by \l@... (toc, 2):  37.59943pt
 number indent by parent (toc, 2):  34.08885pt
 text indent calculated (toc, 2): 30.02785pt
-number indent calculated (toc, 2): 38.51361pt
+number indent calculated (toc, 2): 34.08885pt
 number indent by \l@... (toc, 2):  44.64938pt
 text indent by \l@... (toc, 2):  37.59943pt
 number indent by parent (toc, 2):  34.08885pt
 text indent calculated (toc, 2): 30.02785pt
-number indent calculated (toc, 2): 38.51361pt
+number indent calculated (toc, 2): 34.08885pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  17.62474pt
 number indent by parent (toc, 0):  0.0pt
@@ -1802,7 +1802,7 @@ File: Abbildungen/Kerres2001_Kopiermodell.PNG Graphic file (type png)
 <use Abbildungen/Kerres2001_Kopiermodell.PNG>
 Package pdftex.def Info: Abbildungen/Kerres2001_Kopiermodell.PNG used on input 
 line 21.
-(pdftex.def)             Requested size: 341.43312pt x 49.19624pt.
+(pdftex.def)             Requested size: 318.66953pt x 45.9156pt.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 29.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1814,7 +1814,7 @@ File: Abbildungen/Kerres2001_LernenDurchAnregung.PNG Graphic file (type png)
  <use Abbildungen/Kerres2001_LernenDurchAnregung.PNG>
 Package pdftex.def Info: Abbildungen/Kerres2001_LernenDurchAnregung.PNG used on
  input line 33.
-(pdftex.def)             Requested size: 341.43312pt x 46.02046pt.
+(pdftex.def)             Requested size: 318.66953pt x 42.95233pt.
 )
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 52.
@@ -2071,7 +2071,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 84.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 84.
 Package rerunfilecheck Info: File `WWI13B5_HAUCK_BERNS_Lerntheorien.out' has no
 t changed.
-(rerunfilecheck)             Checksum: F10094167718974A08E70C6EF0058C21;1137.
+(rerunfilecheck)             Checksum: E64DBB490645D02D068C2C0F5A01A96E;1132.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2096,7 +2096,7 @@ fb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2014
 /texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2014/texmf-dist/fonts/
 type1/public/lm/lmro12.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lm
 ssbx10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on WWI13B5_HAUCK_BERNS_Lerntheorien.pdf (17 pages, 385525 bytes)
+Output written on WWI13B5_HAUCK_BERNS_Lerntheorien.pdf (17 pages, 385614 bytes)
 .
 PDF statistics:
  338 PDF objects out of 1000 (max. 8388607)

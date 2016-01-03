@@ -34,6 +34,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Anwendung im E-Learning}{9}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Gegen\IeC {\"u}berstellung der Theorien}{11}{chapter.5}
+\contentsline {chapter}{\numberline {5}Abschlie\IeC {\ss }ende Bemerkungen}{11}{chapter.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Literatur}{IV}{appendix*.4}
