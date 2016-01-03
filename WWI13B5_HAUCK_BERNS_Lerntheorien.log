@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.5.8)  3 JAN 2016 19:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.5.8)  3 JAN 2016 19:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1625,12 +1625,12 @@ number indent by \l@... (toc, 2):  44.64938pt
 text indent by \l@... (toc, 2):  37.59943pt
 number indent by parent (toc, 2):  34.08885pt
 text indent calculated (toc, 2): 30.02785pt
-number indent calculated (toc, 2): 34.08885pt
+number indent calculated (toc, 2): 38.51361pt
 number indent by \l@... (toc, 2):  44.64938pt
 text indent by \l@... (toc, 2):  37.59943pt
 number indent by parent (toc, 2):  34.08885pt
 text indent calculated (toc, 2): 30.02785pt
-number indent calculated (toc, 2): 34.08885pt
+number indent calculated (toc, 2): 38.51361pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  17.62474pt
 number indent by parent (toc, 0):  0.0pt
@@ -1844,7 +1844,7 @@ File: Abbildungen/Kognitivismus1.PNG Graphic file (type png)
 
 <use Abbildungen/Kognitivismus1.PNG>
 Package pdftex.def Info: Abbildungen/Kognitivismus1.PNG used on input line 12.
-(pdftex.def)             Requested size: 409.71696pt x 101.31242pt.
+(pdftex.def)             Requested size: 455.24417pt x 112.56796pt.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 17.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2096,7 +2096,7 @@ fb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2014
 /texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2014/texmf-dist/fonts/
 type1/public/lm/lmro12.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lm
 ssbx10.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on WWI13B5_HAUCK_BERNS_Lerntheorien.pdf (17 pages, 385532 bytes)
+Output written on WWI13B5_HAUCK_BERNS_Lerntheorien.pdf (17 pages, 385525 bytes)
 .
 PDF statistics:
  338 PDF objects out of 1000 (max. 8388607)
