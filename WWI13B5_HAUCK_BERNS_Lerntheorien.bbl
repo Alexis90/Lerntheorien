@@ -140,6 +140,32 @@
   \field{year}{2012}
 \endentry
 
+\entry{Hellmer.2007}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hellmer}{H.}%
+     {Julia}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {{VS Verl. f{\"u}r Sozialwiss}}%
+  }
+  \strng{namehash}{HJ1}
+  \strng{fullhash}{HJ1}
+  \field{labelalpha}{Hel07}
+  \field{sortinit}{H}
+  \field{edition}{1. Aufl.}
+  \field{isbn}{3531153587}
+  \field{series}{Studien zur Bildungsgangforschung}
+  \field{title}{Schule und Betrieb: Lernen in der Kooperation}
+  \field{volume}{11}
+  \list{location}{1}{%
+    {Wiesbaden}%
+  }
+  \field{year}{2007}
+\endentry
+
 \entry{Irle.1986}{incollection}{}
   \name{author}{1}{}{%
     {{}%
