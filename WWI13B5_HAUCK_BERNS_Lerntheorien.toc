@@ -20,7 +20,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Definition}{3}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Lernregeln des Kognitivismus sowie die praktische Umsetzung}{3}{section.2.2}
+\contentsline {section}{\numberline {2.2}Lernregeln des Kognitivismus sowie die Anwendung im E-Learning}{3}{section.2.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Konstruktivismus}{5}{chapter.3}
 \defcounter {refsection}{0}\relax 
@@ -31,6 +31,8 @@
 \contentsline {chapter}{\numberline {4}Konnektivismus}{8}{chapter.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Definition}{8}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Anwendung im E-Learning}{9}{section.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Fazit}{10}{chapter.5}
 \defcounter {refsection}{0}\relax 

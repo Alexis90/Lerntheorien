@@ -329,6 +329,30 @@
   \warn{\item Invalid format of field 'urldate'}
 \endentry
 
+\entry{Mertins.2009}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Mertins}{M.}%
+     {Kai}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{MK1}
+  \strng{fullhash}{MK1}
+  \field{labelalpha}{Mer09}
+  \field{sortinit}{M}
+  \field{isbn}{3540693629}
+  \field{title}{Wissensmanagement im mittelstand/ knowledge management in smes:
+  Grundlagen - lsungen -}
+  \list{location}{1}{%
+    {[Place of publication not identified]}%
+  }
+  \field{year}{2009}
+\endentry
+
 \entry{AnsgarA.PlassmannProf.Dr.GunterSchmitt.2007}{misc}{}
   \name{author}{2}{}{%
     {{}%
