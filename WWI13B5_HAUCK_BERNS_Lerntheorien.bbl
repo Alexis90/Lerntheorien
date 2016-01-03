@@ -253,6 +253,36 @@
   \field{year}{2009}
 \endentry
 
+\entry{Kuhlmann.2008}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kuhlmann}{K.}%
+     {Annette~M.}{A.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sauter}{S.}%
+     {Werner}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{KAMSW1}
+  \strng{fullhash}{KAMSW1}
+  \field{labelalpha}{KS08}
+  \field{sortinit}{K}
+  \field{isbn}{3540778306}
+  \field{series}{X.media.press}
+  \field{title}{Innovative Lernsysteme: Kompetenzentwicklung mit Blended
+  Learning und Social Software}
+  \list{location}{1}{%
+    {Berlin}%
+  }
+  \field{year}{2008}
+\endentry
+
 \entry{SusanneMeir.}{misc}{}
   \name{author}{1}{}{%
     {{}%

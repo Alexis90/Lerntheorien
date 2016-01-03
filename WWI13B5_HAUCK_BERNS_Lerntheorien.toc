@@ -30,7 +30,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Konnektivismus}{8}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Fazit}{9}{chapter.5}
+\contentsline {section}{\numberline {4.1}Definition}{8}{section.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Fazit}{10}{chapter.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\nonumberline Beigaben}{IV}{appendix*.4}
 \defcounter {refsection}{0}\relax 
