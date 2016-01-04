@@ -38,4 +38,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Anhang}{IV}{appendix.A}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literatur}{V}{appendix*.4}
+\contentsline {section}{\numberline {A.1}Unterschiede und Handlungsempfehlungen f\IeC {\"u}r die Lerntheorien in der \IeC {\"U}bersicht}{V}{section.A.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Literatur}{VI}{appendix*.4}
