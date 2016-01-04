@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.19)  4 JAN 2016 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.19)  4 JAN 2016 18:52
 entering extended mode
 **WWI13B5_HAUCK_BERNS_Lerntheorien.tex
 (WWI13B5_HAUCK_BERNS_Lerntheorien.tex
@@ -1626,12 +1626,12 @@ number indent by \l@... (toc, 2):  44.64938pt
 text indent by \l@... (toc, 2):  37.59943pt
 number indent by parent (toc, 2):  39.22147pt
 text indent calculated (toc, 2): 30.02785pt
-number indent calculated (toc, 2): 39.22147pt
+number indent calculated (toc, 2): 41.44662pt
 number indent by \l@... (toc, 2):  44.64938pt
 text indent by \l@... (toc, 2):  37.59943pt
 number indent by parent (toc, 2):  39.22147pt
 text indent calculated (toc, 2): 30.02785pt
-number indent calculated (toc, 2): 39.22147pt
+number indent calculated (toc, 2): 41.44662pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  17.62474pt
 number indent by parent (toc, 0):  0.0pt
@@ -2066,25 +2066,13 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 80.
 
-Overfull \hbox (2.39989pt too wide) in paragraph at lines 83--83
+Overfull \hbox (2.39989pt too wide) in paragraph at lines 82--82
 \T1/lmr/m/it/12 Lern-platt-for-men in der Schu-le\T1/lmr/m/n/12 . E-Learning. B
 oi-zen-burg: Hüls-busch, 2011. \T1/lmr/m/sc/12 isbn\T1/lmr/m/n/12 :
  []
 
-! Misplaced alignment tab character &.
-<argument> ...verlag, Bibliographisches Institut &
-                                                   F.A. Brockhaus
-l.83 \end
-         {document}
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
-
-Overfull \hbox (26.12392pt too wide) in paragraph at lines 83--83
+Overfull \hbox (26.12392pt too wide) in paragraph at lines 82--82
 []\T1/lmr/m/n/12 Walter Edel-mann und Si-mo-ne Witt-mann. \T1/lmr/m/it/12 Lern-
 psy-cho-lo-gie: Mit Online-Materialien\T1/lmr/m/n/12 .
  []
@@ -2104,28 +2092,28 @@ Package babel Info: Redefining ngerman shorthand "~
  [6
 
 ]
-Overfull \hbox (66.65259pt too wide) in paragraph at lines 83--83
+Overfull \hbox (66.65259pt too wide) in paragraph at lines 82--82
 []\T1/lmr/m/n/12 Susanne Meir. \T1/lmr/m/it/12 Di-dak-ti-scher Hin-ter-grund: L
 ern-theo-ri-en\T1/lmr/m/n/12 . \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 : []$\T1/lmtt/
 m/n/12 http : / / lehrerfortbildung -[]$
  []
 
 
-Overfull \hbox (8.92928pt too wide) in paragraph at lines 83--83
+Overfull \hbox (8.92928pt too wide) in paragraph at lines 82--82
 []\T1/lmr/m/n/12 Sigmund To-bi-as.   An Eclec-tic Ex-ami-na-ti-on of So-me Is-
 su-es in the Constructivist-
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 82.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 83.
+(babel)             in language  on input line 82.
 [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
  (WWI13B5_HAUCK_BERNS_Lerntheorien.aux (Inhalt/Titelseite.aux)
 (Inhalt/Erklaerung.aux) (Inhalt/Einleitung.aux) (Inhalt/Kognitivismus.aux)
@@ -2161,7 +2149,7 @@ x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
 lic/lm/lmtt12.pfb>
-Output written on WWI13B5_HAUCK_BERNS_Lerntheorien.pdf (23 pages, 629781 bytes)
+Output written on WWI13B5_HAUCK_BERNS_Lerntheorien.pdf (23 pages, 630229 bytes)
 .
 PDF statistics:
  406 PDF objects out of 1000 (max. 8388607)
