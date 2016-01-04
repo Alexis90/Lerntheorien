@@ -34,11 +34,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Anwendung im E-Learning}{9}{section.4.2}
 \defcounter {refsection}{0}\relax 
-<<<<<<< HEAD
-\contentsline {chapter}{\numberline {5}Abschlie\IeC {\ss }ende Bemerkung}{13}{chapter.5}
-=======
 \contentsline {chapter}{\numberline {5}Abschlie\IeC {\ss }ende Bemerkung}{11}{chapter.5}
->>>>>>> origin/master
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Anhang}{IV}{appendix.A}
 \defcounter {refsection}{0}\relax 
