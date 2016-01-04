@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.3 $
+% $ biblatex version 2.5 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -111,6 +111,30 @@
     {Boizenburg}%
   }
   \field{year}{2011}
+\endentry
+
+\entry{Duden.2006}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dudenredaktion}{D.}%
+     {Dudenredaktion}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Dudenverlag, Bibliographisches Institut & F.A. Brockhaus}%
+  }
+  \strng{namehash}{DD1}
+  \strng{fullhash}{DD1}
+  \field{labelalpha}{Dud06}
+  \field{sortinit}{D}
+  \field{edition}{24. völlig neu bearb. u. erw.}
+  \field{isbn}{978-3-411-04014-8}
+  \field{title}{Duden - Die deutsche Rechtschreibung. Bd. 1}
+  \list{location}{1}{%
+    {Mannheim}%
+  }
+  \field{year}{2006}
 \endentry
 
 \entry{Erpenbeck.2007}{book}{}
