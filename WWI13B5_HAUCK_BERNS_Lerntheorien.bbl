@@ -62,6 +62,32 @@
   \field{year}{1994}
 \endentry
 
+\entry{Bohm.2006}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {B{\"o}hm}{B.}%
+     {Frank}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {{VS Verlag f{\"u}r Sozialwissenschaften ! GWV Fachverlage GmbH,
+  Wiesbaden}}%
+  }
+  \keyw{E-Learning;Tutor}
+  \strng{namehash}{BF1}
+  \strng{fullhash}{BF1}
+  \field{labelalpha}{B{\"o}h06}
+  \field{sortinit}{B}
+  \field{isbn}{3531903942}
+  \field{title}{Der Tele-Tutor: Betreuung Lehrender und Lernender im virtuellen
+  Raum}
+  \list{location}{1}{%
+    {Wiesbaden}%
+  }
+  \field{year}{2006}
+\endentry
+
 \entry{Drummer.2011}{book}{}
   \name{author}{1}{}{%
     {{}%
@@ -138,6 +164,29 @@
   \field{sortinit}{E}
   \field{title}{Lernpsychologie: Mit Online-Materialien}
   \field{year}{2012}
+\endentry
+
+\entry{Filzmoser.2013}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Filzmoser}{F.}%
+     {Gaby}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {{Books On Demand}}%
+  }
+  \strng{namehash}{FG1}
+  \strng{fullhash}{FG1}
+  \field{labelalpha}{Fil13}
+  \field{sortinit}{F}
+  \field{isbn}{3732241432}
+  \field{title}{Bildungshaus 2.0}
+  \list{location}{1}{%
+    {[Place of publication not identified]}%
+  }
+  \field{year}{2013}
 \endentry
 
 \entry{Hellmer.2007}{book}{}

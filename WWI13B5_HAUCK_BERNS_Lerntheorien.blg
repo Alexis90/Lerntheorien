@@ -8,8 +8,7 @@ A level-1 auxiliary file: Inhalt/Einleitung.aux
 A level-1 auxiliary file: Inhalt/Kognitivismus.aux
 A level-1 auxiliary file: Inhalt/Konstruktivismus.aux
 A level-1 auxiliary file: Inhalt/Konnektivismus.aux
-A level-1 auxiliary file: Inhalt/Fazit.aux
-A level-1 auxiliary file: Inhalt/Beigaben.aux
+A level-1 auxiliary file: Inhalt/Test.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -26,44 +25,44 @@ Database file #2: Literatur/Literatur.bib
 Biblatex version: 2.8
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-You've used 21 entries,
+You've used 23 entries,
             6047 wiz_defined-function locations,
-            1286 strings with 11865 characters,
-and the built_in function-call counts, 70739 in all, are:
-= -- 3114
-> -- 2247
-< -- 941
-+ -- 728
-- -- 721
-* -- 4756
-:= -- 4066
+            1298 strings with 12132 characters,
+and the built_in function-call counts, 80609 in all, are:
+= -- 3791
+> -- 2540
+< -- 1126
++ -- 886
+- -- 774
+* -- 5168
+:= -- 4511
 add.period$ -- 0
-call.type$ -- 21
-change.case$ -- 530
+call.type$ -- 23
+change.case$ -- 683
 chr.to.int$ -- 45
-cite$ -- 40
-duplicate$ -- 8059
-empty$ -- 7386
-format.name$ -- 1248
-if$ -- 16369
+cite$ -- 44
+duplicate$ -- 9124
+empty$ -- 8290
+format.name$ -- 1356
+if$ -- 18773
 int.to.chr$ -- 0
-int.to.str$ -- 62
+int.to.str$ -- 70
 missing$ -- 0
-newline$ -- 517
-num.names$ -- 1228
-pop$ -- 6607
+newline$ -- 564
+num.names$ -- 1455
+pop$ -- 7326
 preamble$ -- 1
-purify$ -- 525
+purify$ -- 676
 quote$ -- 0
-skip$ -- 4241
+skip$ -- 4862
 stack$ -- 0
-substring$ -- 2231
-swap$ -- 2622
-text.length$ -- 667
-text.prefix$ -- 34
+substring$ -- 2899
+swap$ -- 2965
+text.length$ -- 727
+text.prefix$ -- 38
 top$ -- 1
-type$ -- 786
+type$ -- 862
 warning$ -- 0
-while$ -- 451
+while$ -- 489
 width$ -- 0
-write$ -- 495
+write$ -- 540
