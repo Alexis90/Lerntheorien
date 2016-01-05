@@ -1,5 +1,6 @@
 \BOOKMARK [0][]{chapter*.1}{Eidesstattliche Erkl\344rung}{}% 1
 \BOOKMARK [0][]{chapter*.3}{Abbildungsverzeichnis}{}% 2
+<<<<<<< HEAD
 \BOOKMARK [0][]{chapter.1}{Einleitung}{}% 3
 \BOOKMARK [1][]{section.1.1}{Lerntheorie}{chapter.1}% 4
 \BOOKMARK [1][]{section.1.2}{Modelle didaktischer Aufbereitung}{chapter.1}% 5
@@ -18,3 +19,24 @@
 \BOOKMARK [1][]{section.A.1}{Unterschiede und Handlungsempfehlungen f\374r die Lerntheorien in der \334bersicht}{appendix.A}% 18
 \BOOKMARK [0][]{chapter*.4}{Beigaben}{}% 19
 \BOOKMARK [0][]{chapter*.5}{Literatur}{}% 20
+=======
+\BOOKMARK [0][]{chapter*.4}{Tabellenverzeichnis}{}% 3
+\BOOKMARK [0][]{chapter.1}{Einleitung}{}% 4
+\BOOKMARK [1][]{section.1.1}{Lerntheorie}{chapter.1}% 5
+\BOOKMARK [1][]{section.1.2}{Modelle didaktischer Aufbereitung}{chapter.1}% 6
+\BOOKMARK [2][]{subsection.1.2.1}{Kopiermodell}{section.1.2}% 7
+\BOOKMARK [2][]{subsection.1.2.2}{Lernen durch Anregung}{section.1.2}% 8
+\BOOKMARK [0][]{chapter.2}{Kognitivismus}{}% 9
+\BOOKMARK [1][]{section.2.1}{Definition}{chapter.2}% 10
+\BOOKMARK [1][]{section.2.2}{Lernregeln des Kognitivismus sowie die Anwendung im E-Learning}{chapter.2}% 11
+\BOOKMARK [0][]{chapter.3}{Konstruktivismus}{}% 12
+\BOOKMARK [1][]{section.3.1}{Vier Ausrichtungen des Konstruktivismus}{chapter.3}% 13
+\BOOKMARK [1][]{section.3.2}{Anwendung im E-Learning}{chapter.3}% 14
+\BOOKMARK [0][]{chapter.4}{Konnektivismus}{}% 15
+\BOOKMARK [1][]{section.4.1}{Definition}{chapter.4}% 16
+\BOOKMARK [1][]{section.4.2}{Anwendung im E-Learning}{chapter.4}% 17
+\BOOKMARK [0][]{chapter.5}{Abschlie\337ende Bemerkung}{}% 18
+\BOOKMARK [0][]{appendix.A}{Anhang}{}% 19
+\BOOKMARK [1][]{section.A.1}{Unterschiede und Handlungsempfehlungen f\374r die Lerntheorien in der \334bersicht}{appendix.A}% 20
+\BOOKMARK [0][]{appendix*.5}{Literatur}{}% 21
+>>>>>>> origin/master
