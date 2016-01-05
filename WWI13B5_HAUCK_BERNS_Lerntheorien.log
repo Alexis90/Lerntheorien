@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.19)  5 JAN 2016 20:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.19)  5 JAN 2016 20:48
 entering extended mode
 **WWI13B5_HAUCK_BERNS_Lerntheorien.tex
 (WWI13B5_HAUCK_BERNS_Lerntheorien.tex
@@ -1708,11 +1708,6 @@ text indent by \l@... (toc, 0):  17.62474pt
 number indent by parent (toc, 0):  0.0pt
 text indent calculated (toc, 0): 15.39958pt
 number indent calculated (toc, 0): 0.0pt
-
-Overfull \hbox (1.7177pt too wide) detected at line 47
- []\T1/lmr/m/n/12 VIII
- []
-
 )
 \tf@toc=\write5
 Package babel Info: Redefining ngerman shorthand "|
@@ -2085,73 +2080,54 @@ Package pdftex.def Info: Abbildungen/Gegenuberstellung.png used on input line 8
 (pdftex.def)             Requested size: 455.24417pt x 410.91245pt.
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 79.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 79.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 76.
+(babel)             in language  on input line 79.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 76.
- [6 <./Abbildungen/Gegenuberstellung.png>] (Inhalt/Beigaben.tex
+(babel)             in language  on input line 79.
+ [6 <./Abbildungen/Gegenuberstellung.png>]
 chapter without number
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1.
+(babel)             in language  on input line 79.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1.
-)
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 76.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 76.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 76.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 76.
- [7
+(babel)             in language  on input line 79.
 
-
-]
-chapter without number
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 80.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 80.
-
-Overfull \hbox (2.39989pt too wide) in paragraph at lines 82--82
+Overfull \hbox (2.39989pt too wide) in paragraph at lines 80--80
 \T1/lmr/m/it/12 Lern-platt-for-men in der Schu-le\T1/lmr/m/n/12 . E-Learning. B
 oi-zen-burg: Hüls-busch, 2011. \T1/lmr/m/sc/12 isbn\T1/lmr/m/n/12 :
  []
 
 
-Overfull \hbox (26.12392pt too wide) in paragraph at lines 82--82
+Overfull \hbox (26.12392pt too wide) in paragraph at lines 80--80
 []\T1/lmr/m/n/12 Walter Edel-mann und Si-mo-ne Witt-mann. \T1/lmr/m/it/12 Lern-
 psy-cho-lo-gie: Mit Online-Materialien\T1/lmr/m/n/12 .
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 80.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 79.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 79.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 79.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 80.
+(babel)             in language  on input line 79.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 80.
- [8
-
+(babel)             in language  on input line 79.
+ [7
 
 ]
-Overfull \hbox (66.65259pt too wide) in paragraph at lines 82--82
+Overfull \hbox (66.65259pt too wide) in paragraph at lines 80--80
 []\T1/lmr/m/n/12 Susanne Meir. \T1/lmr/m/it/12 Di-dak-ti-scher Hin-ter-grund: L
 ern-theo-ri-en\T1/lmr/m/n/12 . \T1/lmr/m/sc/12 url\T1/lmr/m/n/12 : []$\T1/lmtt/
 m/n/12 http : / / lehrerfortbildung -[]$
  []
 
 
-Overfull \hbox (8.92928pt too wide) in paragraph at lines 82--82
+Overfull \hbox (8.92928pt too wide) in paragraph at lines 80--80
 []\T1/lmr/m/n/12 Sigmund To-bi-as.   An Eclec-tic Ex-ami-na-ti-on of So-me Is-
 su-es in the Constructivist-
  []
@@ -2164,18 +2140,36 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 82.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 82.
-[9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
+[8] (Inhalt/Beigaben.tex
+chapter without number
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 82.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 82.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 82.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 82.
+ [9
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 85.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 85.
  (WWI13B5_HAUCK_BERNS_Lerntheorien.aux (Inhalt/Titelseite.aux)
 (Inhalt/Erklaerung.aux) (Inhalt/Einleitung.aux) (Inhalt/Kognitivismus.aux)
 (Inhalt/Konstruktivismus.aux) (Inhalt/Konnektivismus.aux) (Inhalt/Test.aux)
 (Inhalt/Beigaben.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 85.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 85.
 Package rerunfilecheck Info: File `WWI13B5_HAUCK_BERNS_Lerntheorien.out' has no
 t changed.
-(rerunfilecheck)             Checksum: BF1005B171483212668B18090002DE27;1421.
+(rerunfilecheck)             Checksum: 9A02D19A269B2A72CD93C4A95C1D826F;1421.
 Package logreq Info: Writing requests to 'WWI13B5_HAUCK_BERNS_Lerntheorien.run.
 xml'.
  ) 
@@ -2199,7 +2193,7 @@ x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX
 ype1/public/lm/lmro12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 /lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
 2.pfb>
-Output written on WWI13B5_HAUCK_BERNS_Lerntheorien.pdf (25 pages, 643649 bytes)
+Output written on WWI13B5_HAUCK_BERNS_Lerntheorien.pdf (25 pages, 643653 bytes)
 .
 PDF statistics:
  440 PDF objects out of 1000 (max. 8388607)

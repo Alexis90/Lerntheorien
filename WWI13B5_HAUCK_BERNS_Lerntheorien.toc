@@ -42,6 +42,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.1}Unterschiede und Handlungsempfehlungen f\IeC {\"u}r die Lerntheorien in der \IeC {\"U}bersicht}{VI}{section.A.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Beigaben}{VII}{chapter*.5}
+\contentsline {chapter}{\nonumberline Literatur}{VII}{chapter*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\nonumberline Literatur}{VIII}{chapter*.6}
+\contentsline {chapter}{\nonumberline Beigaben}{IX}{chapter*.6}
