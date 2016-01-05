@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.19)  5 JAN 2016 20:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.19)  5 JAN 2016 20:35
 entering extended mode
 **WWI13B5_HAUCK_BERNS_Lerntheorien.tex
 (WWI13B5_HAUCK_BERNS_Lerntheorien.tex
@@ -1500,7 +1500,7 @@ LaTeX Info: Redefining \nameref on input line 3.
 (WWI13B5_HAUCK_BERNS_Lerntheorien.out) (WWI13B5_HAUCK_BERNS_Lerntheorien.out)
 \@outlinefile=\write4
 
-(Inhalt/Titelseite.tex <Abbildungen/dhbw.png, id=87, 710.655pt x 299.1175pt>
+(Inhalt/Titelseite.tex <Abbildungen/dhbw.png, id=91, 710.655pt x 299.1175pt>
 File: Abbildungen/dhbw.png Graphic file (type png)
 
 <use Abbildungen/dhbw.png>
@@ -1703,6 +1703,16 @@ text indent by \l@... (toc, 0):  17.62474pt
 number indent by parent (toc, 0):  0.0pt
 text indent calculated (toc, 0): 15.39958pt
 number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 0):  0.0pt
+text indent by \l@... (toc, 0):  17.62474pt
+number indent by parent (toc, 0):  0.0pt
+text indent calculated (toc, 0): 15.39958pt
+number indent calculated (toc, 0): 0.0pt
+
+Overfull \hbox (1.7177pt too wide) detected at line 47
+ []\T1/lmr/m/n/12 VIII
+ []
+
 )
 \tf@toc=\write5
 Package babel Info: Redefining ngerman shorthand "|
@@ -1814,7 +1824,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 18.
 
-<Abbildungen/Kopiermodell.PNG, id=172, 1251.92719pt x 220.57407pt>
+<Abbildungen/Kopiermodell.PNG, id=177, 1251.92719pt x 220.57407pt>
 File: Abbildungen/Kopiermodell.PNG Graphic file (type png)
 
 <use Abbildungen/Kopiermodell.PNG>
@@ -1825,7 +1835,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 30.
 
-<Abbildungen/Anregungsmodell.PNG, id=178, 1251.92719pt x 164.86594pt>
+<Abbildungen/Anregungsmodell.PNG, id=183, 1251.92719pt x 164.86594pt>
 File: Abbildungen/Anregungsmodell.PNG Graphic file (type png)
 
 <use Abbildungen/Anregungsmodell.PNG>
@@ -1860,7 +1870,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 5.
-<Abbildungen/Kognitivismus1.PNG, id=196, 662.475pt x 163.812pt>
+<Abbildungen/Kognitivismus1.PNG, id=201, 662.475pt x 163.812pt>
 File: Abbildungen/Kognitivismus1.PNG Graphic file (type png)
 
 <use Abbildungen/Kognitivismus1.PNG>
@@ -1930,7 +1940,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 18.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 18.
- <Abbildungen/Anderson_1999_4positions.png, id=243, 963.6pt x 542.025pt>
+ <Abbildungen/Anderson_1999_4positions.png, id=248, 963.6pt x 542.025pt>
 File: Abbildungen/Anderson_1999_4positions.png Graphic file (type png)
 
 <use Abbildungen/Anderson_1999_4positions.png>
@@ -2066,7 +2076,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 3.
- <Abbildungen/Gegenuberstellung.png, id=346, 722.2182pt x 651.8754pt>
+ <Abbildungen/Gegenuberstellung.png, id=351, 722.2182pt x 651.8754pt>
 File: Abbildungen/Gegenuberstellung.png Graphic file (type png)
 
 <use Abbildungen/Gegenuberstellung.png>
@@ -2163,25 +2173,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
 (Inhalt/Beigaben.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
-
-
-Package rerunfilecheck Warning: File `WWI13B5_HAUCK_BERNS_Lerntheorien.out' has
- changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `WWI13B5_HAUCK_BERNS_Lerntheorien.ou
-t':
-(rerunfilecheck)             Before: EFFE8388D10DE9EBA325F1C9FFC2440B;1375
-(rerunfilecheck)             After:  BF1005B171483212668B18090002DE27;1421.
+Package rerunfilecheck Info: File `WWI13B5_HAUCK_BERNS_Lerntheorien.out' has no
+t changed.
+(rerunfilecheck)             Checksum: BF1005B171483212668B18090002DE27;1421.
 Package logreq Info: Writing requests to 'WWI13B5_HAUCK_BERNS_Lerntheorien.run.
 xml'.
  ) 
 Here is how much of TeX's memory you used:
- 22339 strings out of 493673
- 358436 string characters out of 3141529
+ 22340 strings out of 493673
+ 358448 string characters out of 3141529
  832227 words of memory out of 3000000
- 25100 multiletter control sequences out of 15000+200000
+ 25101 multiletter control sequences out of 15000+200000
  83170 words of font info for 59 fonts, out of 3000000 for 9000
  1029 hyphenation exceptions out of 8191
  59i,12n,66p,1937b,2580s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2197,10 +2199,10 @@ x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX
 ype1/public/lm/lmro12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 /lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
 2.pfb>
-Output written on WWI13B5_HAUCK_BERNS_Lerntheorien.pdf (25 pages, 643150 bytes)
+Output written on WWI13B5_HAUCK_BERNS_Lerntheorien.pdf (25 pages, 643649 bytes)
 .
 PDF statistics:
- 436 PDF objects out of 1000 (max. 8388607)
+ 440 PDF objects out of 1000 (max. 8388607)
  77 named destinations out of 1000 (max. 500000)
- 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
