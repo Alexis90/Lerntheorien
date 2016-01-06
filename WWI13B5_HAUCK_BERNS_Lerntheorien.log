@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.19)  5 JAN 2016 20:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.19)  6 JAN 2016 11:30
 entering extended mode
 **WWI13B5_HAUCK_BERNS_Lerntheorien.tex
 (WWI13B5_HAUCK_BERNS_Lerntheorien.tex
@@ -1912,6 +1912,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 7.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 7.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 7.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 10.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1928,14 +1934,7 @@ Package babel Info: Redefining ngerman shorthand "~
 
 
 
-]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 18.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 18.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 18.
- <Abbildungen/Anderson_1999_4positions.png, id=248, 963.6pt x 542.025pt>
+] <Abbildungen/Anderson_1999_4positions.png, id=256, 963.6pt x 542.025pt>
 File: Abbildungen/Anderson_1999_4positions.png Graphic file (type png)
 
 <use Abbildungen/Anderson_1999_4positions.png>
@@ -2071,7 +2070,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 3.
- <Abbildungen/Gegenuberstellung.png, id=351, 722.2182pt x 651.8754pt>
+ <Abbildungen/Gegenuberstellung.png, id=355, 722.2182pt x 651.8754pt>
 File: Abbildungen/Gegenuberstellung.png Graphic file (type png)
 
 <use Abbildungen/Gegenuberstellung.png>
@@ -2174,11 +2173,11 @@ Package logreq Info: Writing requests to 'WWI13B5_HAUCK_BERNS_Lerntheorien.run.
 xml'.
  ) 
 Here is how much of TeX's memory you used:
- 22340 strings out of 493673
- 358448 string characters out of 3141529
+ 22343 strings out of 493673
+ 358482 string characters out of 3141529
  832227 words of memory out of 3000000
- 25101 multiletter control sequences out of 15000+200000
- 83170 words of font info for 59 fonts, out of 3000000 for 9000
+ 25102 multiletter control sequences out of 15000+200000
+ 87433 words of font info for 60 fonts, out of 3000000 for 9000
  1029 hyphenation exceptions out of 8191
  59i,12n,66p,1937b,2580s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
@@ -2188,15 +2187,15 @@ ts/type1/public/lm/lmcsc10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr
 12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/lm/lmri8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmro12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
-2.pfb>
-Output written on WWI13B5_HAUCK_BERNS_Lerntheorien.pdf (25 pages, 643653 bytes)
+x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/lm/lmri8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/lm/lmro12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx1
+0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
+Output written on WWI13B5_HAUCK_BERNS_Lerntheorien.pdf (25 pages, 666660 bytes)
 .
 PDF statistics:
- 440 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
+ 447 PDF objects out of 1000 (max. 8388607)
+ 78 named destinations out of 1000 (max. 500000)
  207 words of extra memory for PDF output out of 10000 (max. 10000000)
 
